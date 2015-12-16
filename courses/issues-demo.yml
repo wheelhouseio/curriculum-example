@@ -1,0 +1,10 @@
+title: GitHub Issues Demo
+description: Demonstrating the features that Wheelhouse currently offers by teaching how to use Issues.
+configurator_class: RepositoryConfigurator
+
+sections:
+  -
+    title: GitHub Issues
+    description: This section introduces you to project management using GitHub Issues.
+    modules:
+      - DEMO-issues

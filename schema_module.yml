@@ -1,0 +1,164 @@
+type: map
+mapping:
+  "title":
+    type: str
+    required: yes
+  "pre-requisites":
+    type: str
+    required: no
+  "learning-objective":
+    type: str
+    required: yes
+  "screens":
+    required: yes
+    type: seq
+    sequence:
+      - type: map
+        mapping:
+        # poll schema
+          poll:
+            required: false
+            type: map
+            mapping:
+              "title":
+                required: true
+              "presenter-script":
+                required: true
+                type: any
+              "questions":
+                required: true
+                type: seq
+                sequence:
+                  - type: any
+        # quiz schema
+          quiz:
+            required: false
+            type: map
+            mapping:
+              "id":
+                required: true
+              "title":
+                required: true
+              "image":
+                required: false
+              "presenter-script":
+                required: true
+                type: any
+              "questions":
+                required: true
+                type: seq
+                sequence:
+                  - type: map
+                    mapping:
+                      "id":
+                        required: true
+                      "title":
+                        required: true
+                      "type":
+                        required: true
+                        enum: [multiple-select, single-select, free-text-single-entry, free-text-multiple-entry, open-response]
+                      "options":
+                        required: false
+                        type: seq
+                        sequence:
+                          - type: map
+                            mapping:
+                              "value":
+                                required: false
+                              "id":
+                                required: true
+                              "response":
+                                required: true
+                              "correct":
+                                required: true
+                                type: bool
+        # image schema
+          image-slide:
+            type: map
+            mapping:
+              "title":
+                required: true
+              "image":
+                required: true
+              "presenter-script":
+                required: true
+                type: any
+        # video schema
+          video-slide:
+            type: map
+            mapping:
+              "title":
+                required: true
+              "video":
+                required: true
+              "production-notes":
+                required: false
+              "video-script":
+                required: true
+                type: seq
+                sequence:
+                # TODO figure out do/say block
+                  - type: any
+        # lab schema
+          lab:
+            type: map
+            mapping:
+              "id":
+                required: true
+              "title":
+                required: true
+              "introduction":
+                required: false
+              "presenter-script":
+                required: true
+                type: any
+              "steps":
+                required: true
+                type: seq
+                sequence:
+                  - type: map
+                    mapping:
+                      "description":
+                        required: true
+                      "id":
+                        required: true
+                      "verifications":
+                        required: false
+                        type: seq
+                        sequence:
+                          - type: map
+                            mapping:
+                              id:
+                                required: true
+                              verification-type:
+                                required: true
+                              success-message:
+                                required: true
+                              failure-message:
+                                required: true
+                              repo-name:
+                                required: false
+        # remote-slide schema
+          remote-slide:
+            type: map
+            mapping:
+              "title":
+                required: true
+              "url":
+                required: true
+              "presenter-script":
+                required: true
+                type: any
+  "additional-labs":
+  "additional-questions":
+  "resources":
+    type: seq
+    sequence:
+      - type: map
+        mapping:
+          "title":
+            type: str
+            required: yes
+          "url":
+            type: str
+            required: yes
