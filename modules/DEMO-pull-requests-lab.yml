@@ -1,9 +1,9 @@
 title: Pull Requests
 pre-requisites: 
-learning-objective: 
+learning-objective: PRs
 screens:
   - lab:
-      title: Collaborating on GitHub
+      title: "Collaborating on GitHub: Lab"
       id: DEMO-pr-lab
       presenter-script:
       introduction: |

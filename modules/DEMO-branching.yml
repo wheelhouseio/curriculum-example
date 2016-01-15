@@ -1,10 +1,10 @@
 title: Branches
 pre-requisites: 
-learning-objective: 
+learning-objective: Branches
 screens:
   - lab:
       title: Doing Work on GitHub
-      id: DEMO-branches
+      id: DEMO-branching
       presenter-script:
       introduction: |
         ## Branches

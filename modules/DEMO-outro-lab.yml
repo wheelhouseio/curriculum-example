@@ -1,12 +1,15 @@
 title: Outro
 pre-requisites: 
-learning-objective: 
+learning-objective: Review
 screens:
   - lab:
-      title: Congratulations!
+      title: More practice!
       id: DEMO-outro-lab
       presenter-script:
       introduction: |
+        Try out everything you learned by going through the workflow again below.
+
+        If you want to dive deeper into Git and GitHub, you can purchase our <a href="https://learn.wheelhouse.io/" target="_blank">official <strong>GitHub for Developers</strong> course</a>.
       steps:    
         - description: "Create a branch for your changes."
           id: DEMO-outro-lab-create-branch

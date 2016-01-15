@@ -1,11 +1,9 @@
 title: Pull Requests
 pre-requisites: 
-learning-objective: 
+learning-objective: PRs
 screens:
-  - lab:
+  - image-slide:
       title: Collaborating on GitHub
-      id: DEMO-pr-art
-      presenter-script:
       introduction: |
         ## Submitting a Pull Request
 
