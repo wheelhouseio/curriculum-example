@@ -1,0 +1,50 @@
+title: ZenHub Workflow Demo
+description: Demonstrating the features that Wheelhouse currently offers by teaching the ZenHub Workflow.
+configurator_class: RepositoryConfigurator
+
+sections:
+  -
+    title: Intro to ZenHub
+    description: This section introduces you to installing ZenHub.
+    modules:
+      - DEMO-intro-to-zh
+  -
+    title: Getting Rolling with ZenHub Boards
+    description: This section introduces you to ZenHub boards.
+    modules:
+      - DEMO-set-up-zh-board
+      - DEMO-boards-different-workflow
+  -
+    title: Burndown Charts and Time Estimations
+    description: This section introduces you to Burndown Charts and Time Estimations
+    modules:
+      - DEMO-burndown-short-intro
+      - DEMO-estimates
+      - DEMO-read-react-burndown-charts
+  -
+    title: ToDo - Master your Tasks
+    description: This section introduces you to ToDo
+    modules:
+      - DEMO-todo-primer
+      - DEMO-adding-tasks
+      - DEMO-create-custom-lists
+  -
+    title: Time-saving features
+    description: This section introduces you to time saving features
+    modules:
+      - DEMO-slack-integration
+      - DEMO-adding-tasks
+      - DEMO-api
+      - DEMO-peer-feedback
+      - DEMO-repo-switcher
+  -
+    title: Licenses and Dashboard
+    description: This section introduces you to licenses and Dashboard
+    modules:
+      - DEMO-intro-dashboard
+      - DEMO-permissions
+      - DEMO-add-manage-licenses
+
+
+
+
