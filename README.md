@@ -158,3 +158,11 @@ On your content staging server, go to /admin/repositories/new to import a new re
 3. In the **Branch** field, write the name of the branch you would like to import from. This field defaults to `master`, but you can write in any branch name that contains a file for the course you're importing. This allows you to use a branch-based workflow when developing and testing curricula.
 
 **DO NOT IMPORT A CURRICULUM UNTIL AFTER HAVING VALIDATED IT USING THE `rake` COMMAND**
+
+If you have linked to any blank module .yml files, the `rake` will succeed while the import will fail. If you have placeholder modules in your course .yml file, each module file needs to contain at minimum the following text:
+
+```yaml
+title: Placeholder Module
+learning-objective:
+screens:
+```
