@@ -1,0 +1,41 @@
+title: Outro
+pre-requisites:
+learning-objective:
+screens:
+  - image-slide:
+      title: "Using ZenHub"
+      image: blank.png
+      presenter-script: |
+        ## ZenHub Boards
+        ZenHub Boards are your new default work area for collaboration. Boards allow you to see entire projects in a glance, across repositories or even organizations. They are ZenHub’s home base, where teams update tasks, create and comment on issues, and get a sense of priorities. They’re the simplest way to see who is doing what, and when, so distributed teams always know the most important thing to do next.
+        ZenHub Boards are inspired by Kanban boards. Originally used in the 1940s by Toyota as a strategy to decrease production time, Kanban boards were adapted by lean software teams as strategy to optimize development cycles. Tasks (your GitHub issues) flow left-to-right through the Board’s pipelines, signalling their progression toward completion.
+        ### How to Access ZenHub Boards
+        Visit GitHub.com and click a repository from the list on the right-hand side.
+        [image placeholder]
+
+        Now that you have downloaded ZenHub, notice the new Board icon in your top nav bar. Click **Boards** (or press `b`) to access your ZenHub Board for that repo. Each repository has its own ZenHub Board; for an even wider view on progress, Boards from different repositories can be combined into one master “Multi-Repo Board”.
+        [image placeholder]
+        ### Getting the Board basics
+        ZenHub Boards are pre-scaffolded with six pipelines: New Issues, Backlog, To-Do, In Progress, and Done. This basic configuration works well for most software-driven teams. Here’s an overview of  each pipeline (or “swim lane”):
+        #### New Issues
+        When you first open a ZenHub Board, the issues are batched in the New Issues pipeline. The New Issues pipeline relates to the concept of triage: all issues in this pipeline require a decision. You don’t want issues to stay there very long, so drag them to another pipeline.
+        #### Backlog
+        Issues in Backlog are not a current focus. For example, they may be feature requests or ideas for the next version of your product.
+        In the Backlog pipeline, add more information (like requirements and outlines) into each issue. It’s useful to get ideas out of your head, even if you will not be touching them for a while.
+        Prioritize issues by dragging and dropping their placement in the pipeline. Issues higher in the pipeline are higher priority; accordingly, they should contain all the information necessary to get started when the time comes. Low-priority issues should still contain at least a short description.
+        #### To Do
+        This is your team’s current focus, and issues should be well-defined. Depending on your methodology (Kanban, Scrum, or other), this pipeline may contain the content of your current Sprint or high-priority items for your next release.
+        Issues in To Do will flow into the In Progress pipeline, so order them by priority. Assign someone on your team using GitHub’s “Assignee” drop-down menu so everyone knows what to work on next.
+        #### In Progress
+        This is the answer to the question “What are you working on right now?”. Ideally, this pipeline should not contain more issues than members of your team; each team member should be working on one thing at a time.
+        This pipeline is a good candidate for WIP (work-in-progress) limits. WIP limits help ensure your work flows smoothly, and help bring to light any blockers or bottlenecks. Choose a WIP limit according to the size of your team (for example, “We should collectively work on a maximum of five issues at a time.”).
+        #### Done
+        Choose a consistent definition for what “Done” means to your team. A “Done” issue may mean it is on Production or Staging, or is ready for testing. Have a conversation with your team to define what “Done” means for your project.
+        #### Closed
+        To keep ZenHub Boards clutter-free, you may hide the Closed Issue Pipeline via the checkbox at the top of the Board. When the box is checked, the Closed Issues Pipeline is visible on the far-right side of the Board.
+        This pipeline is also *interactive*: dragging issues into this pipeline will close them, while dragging them out will re-open them. It can be filtered like the rest of the Board – by Label, Assignee or Milestone.
+
+
+additional-labs:
+additional-questions:
+resources:

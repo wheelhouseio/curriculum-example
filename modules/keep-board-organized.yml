@@ -1,0 +1,60 @@
+title: Outro
+pre-requisites:
+learning-objective:
+screens:
+  - image-slide:
+      title: "Using ZenHub"
+      image: blank.png
+      presenter-script: |
+        ## Keeping your Board organized
+      ZenHub makes it easy to organize issues on the Board, right as you create them.
+
+      ### Board View
+      On your ZenHub Board, click “New Issue”. Give your issue a name and some text.
+      [image placeholder]
+
+      - On the right-hand side, click on ZenHub’s Pipeline Selector. Use it to move this issue from the default “New Issues” pipeline to its proper place in the Board.
+      - You can also attach GitHub Label(s), GitHub Milestone, a Time Estimate (covered in more detail later), and an Assignee.
+      - Click “Submit new issue” to have it appear in its new pipeline.
+
+      [image placeholder]
+
+
+      ### Connecting Boards from different repos or organizations
+      Connecting Task Boards provides total visibility to your projects, making sprint planning and prioritization more transparent. Of course, you can filter the Board to see only what you need.
+
+      #### Merging Repositories
+
+      [image placeholder]
+
+      First, navigate to any ZenHub Board. Click **Repositories**, then **Merge another repository +**.
+
+      You can easily customize the new Board’s structure. In the preview screen, drag and drop pipelines to determine how they will be merged. You can always fine-tune these configurations later.
+
+      For example, let’s say you want to merge the "QA" pipeline with another Board’s "Code Quality" pipeline. Though their names are different, their purpose is the same. When these pipelines are merged, the "QA" pipeline’s issues will appear in the "Code Quality" pipeline.
+
+      When you have finished organizing, click **Merge**. You’ve just created a  Multi-Repo Board.
+
+      #### Merging another organization
+
+      If you want to connect a Board from another organization, click “Or, merge from a different GitHub organization”.
+      [image placeholder]
+
+      Type your desired organization and repository names, then click “Select”. (**Note**: only team members with organization permissions will see the newly connected repo.)
+      [image placeholder]
+
+      #### Filtering the ZenHub Board by GitHub Repo
+      [image placeholder]
+
+
+      ZenHub Boards can  be filtered by GitHub **Repository** in addition to Assignee, Milestone, and Label. Locate the **Repository** filter at the top-left corner of the Board and use the checkmarks to hide or reveal repositories.
+
+      #### Splitting (Disconnecting) Repositories
+
+      Just as you can connect repositories, you can also split them. Click **Repositories** (beside Labels), locate the repository you wish to split, and click **Disconnect**. Take note, however, that splitting repos may affect other team members.
+
+
+
+additional-labs:
+additional-questions:
+resources:
