@@ -8,38 +8,47 @@ screens:
       presenter-script: |
         ## Using ZenHub
 
-        ## What is ZenHub?
+        ### What is ZenHub?
 
-        ZenHub is a project management and collaboration solution built for agile development teams. It is a lightweight browser extension (compatible with Google Chrome and Mozilla Firefox)  that injects several features directly to GitHub’s user interface – adding a “strategic layer” that sits on top of GitHub.
+        To build amazing software, you need to be where the software is. That’s the purpose behind ZenHub: a project management tool for fast-moving development teams. Its lightweight browser extension (compatible with Google Chrome and Mozilla Firefox) sits “on top” of GitHub, adding several project management and collaboration-focused features directly to GitHub’s user interface.
 
-        By centralizing your team’s workflows in a single tool,  you can avoid time spent “context switching” from tool to tool – writing tickets, finding files, or updating queues.
-        What you’ll learn
-        In this course, you’ll learn how to use ZenHub to manage GitHub projects
+        By centralizing your team’s workflows in a single tool,  you can avoid wasted time spent “context switching” from tool to tool. ZenHub’s features are populated by your existing GitHub data, so your team can get started right away.
+
+        ### What you’ll learn
+
+        In this course, you’ll learn how to use ZenHub to manage your GitHub projects:
+
         How to visualize your workflow with ZenHub Boards
         How to estimate complexity and track project velocity with Burndown Charts
         How to create your own personal task management flow
 
          You’ll also be familiarized with best practices for kanban, scrum, and agile workflows.
 
-        Downloading ZenHub
-        To download ZenHub, visit ZenHub.io, then click “Add ZenHub to GitHub”.
-        In the permissions modal, click “Add” to enable ZenHub features to run natively  in your GitHub interface.
+        ### Downloading ZenHub
 
-        You’ll be redirected to GitHub.com, where you’ll see several new features added to the GitHub user interface. Everything you do in ZenHub (aside from payments or license management, which are done through the ZenHub Dashboard) is done from GitHub.com.
+        To download ZenHub, visit ZenHub.io, then click “Add ZenHub to GitHub”. In the permissions modal, click “Add extension” to enable ZenHub features to run natively in your GitHub interface.
+
+        You’ll be redirected to GitHub.com, where you’ll see several new features added to the GitHub user interface.
+
+        [add image]
+
+        Everything you do in ZenHub is done within GitHub  (aside from payments or license management, which are done through the ZenHub Dashboard).
 
         Notice the new “Z” button in your browser – this is the ZenHub Notification Center.
 
 
         You can click the Notification Center to see your team’s recent activity, seek help, or navigate to your ZenHub Dashboard.
 
-        Keyboard Shortcuts
+        ### Keyboard Shortcuts
         Keep these in mind as you go through the course.
-        Open Task Board - b
-        View Burndown Chart - d
-        Open Rapid Repo Switcher - f
-        Open Pipeline Selector - p
-        Set or Change Time Estimate - e
-        View GitHub Keyboard Shortcuts -?
+
+        Open Task Board: `b`
+        View Burndown Chart: `d`
+        Open Rapid Repo Switcher: `f`
+        Open Pipeline Selector: `p`
+        Set or Change Time Estimate: `e`
+        View GitHub Keyboard Shortcuts: `?`
+
 
 additional-labs:
 additional-questions:
